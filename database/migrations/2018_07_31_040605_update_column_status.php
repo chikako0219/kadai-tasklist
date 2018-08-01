@@ -16,7 +16,7 @@ class UpdateColumnStatus extends Migration
 	Schema::table('tasks', function (Blueprint $table) {
 	$table->string('status', 10)->change();
     });
-}
+    }
     /**
      * Reverse the migrations.
      *
